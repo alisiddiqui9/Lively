@@ -10,28 +10,36 @@ function Items() {
     <>
       <HStack spacing="50px">
         <Box>
-          <Icon as={AiFillHome} fontSize="60px" ml="5px" />
-          <Text mr="70px" fontWeight="700" fontSize="22px">
-            <Link to="../main.js">HOME</Link>
-          </Text>
+          <Link to="../main.js">
+            <Icon as={AiFillHome} fontSize="60px" ml="5px" />
+            <Text mr="70px" fontWeight="700" fontSize="22px">
+              HOME
+            </Text>
+          </Link>
         </Box>
         <Box>
-          <Icon as={BsPeople} fontSize="60px" ml="15px" />
-          <Text mr="70px" fontWeight="700" fontSize="22px">
-            <Link to="../404.js">DOCTOR</Link>
-          </Text>
+          <Link to="../404v2.js">
+            <Icon as={BsPeople} fontSize="60px" ml="15px" />
+            <Text mr="70px" fontWeight="700" fontSize="22px">
+              DOCTOR
+            </Text>
+          </Link>
         </Box>
         <Box>
-          <Icon as={AiOutlineCalendar} fontSize="60px" ml="30px" />
-          <Text mr="70px" fontWeight="700" fontSize="22px">
-            <Link to="../404.js">CALENDAR</Link>
-          </Text>
+          <Link to="../404v2.js">
+            <Icon as={AiOutlineCalendar} fontSize="60px" ml="30px" />
+            <Text mr="70px" fontWeight="700" fontSize="22px">
+              CALENDAR
+            </Text>
+          </Link>
         </Box>
         <Box>
-          <Icon as={ImBubbles} fontSize="60px" ml="5px" />
-          <Text mr="70px" fontWeight="700" fontSize="22px">
-            <Link to="../404.js">INBOX</Link>
-          </Text>
+          <Link to="../404v2.js">
+            <Icon as={ImBubbles} fontSize="60px" ml="5px" />
+            <Text mr="70px" fontWeight="700" fontSize="22px">
+              INBOX
+            </Text>
+          </Link>
         </Box>
       </HStack>
     </>

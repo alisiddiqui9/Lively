@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Flex } from '@chakra-ui/react';
 import Navbar2 from './navbar2';
 
-function ErrorPage() {
+function ErrorPage2() {
   return (
     <>
       <Navbar2 />
@@ -18,4 +18,4 @@ function ErrorPage() {
   );
 }
 
-export default ErrorPage;
+export default ErrorPage2;
