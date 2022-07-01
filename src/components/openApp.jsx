@@ -21,7 +21,7 @@ function OpenApp() {
           transform: 'scale(1.1)',
         }}
         onClick={() => {
-          window.open('../login.jsx', '_self');
+          window.open('../home.js', '_self');
         }}
       >
         <Text fontSize="3xl" fontWeight="600">

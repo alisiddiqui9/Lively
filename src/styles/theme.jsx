@@ -4,7 +4,7 @@ const theme = extendTheme({
   colors: {
     secondary: '#FFFFFF',
     primary: '#9A6AFF',
-    bgColor: '#E3E3E3',
+    bgColor: '#FFFFFF',
     textColor: '#1E2029',
   },
   fonts: {
