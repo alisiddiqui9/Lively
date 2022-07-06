@@ -16,12 +16,11 @@ function Application() {
   return (
     <>
       <Navbar2 />
-
       <Flex width="100%">
         <img
           className="user-pfp"
           src={require('../userPFP.png')}
-          alt="LivelyLogo"
+          alt="userLogo"
         />
         <Flex flexDirection="column">
           <Text
